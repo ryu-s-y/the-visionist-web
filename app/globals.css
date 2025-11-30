@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@import "tailwindcss";
+
+:root {
+  /* New Color Palette */
+  --background: #F8F9FA;
+  --foreground: #1F2937;
+
+  --brand-primary: #9351c2;
+  --brand-secondary: #C5A572;
+  --brand-dark: #4a2b61;
+  /* Darker shade of primary for contrast if needed, or keep original deep violet? User said Primary is Royal Purple. Let's use a derived dark or just use the primary as the main brand color. */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  /* Overriding font-sans to use Pretendard */
+  --font-sans: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+  --color-brand-primary: #9351c2;
+  --color-brand-secondary: #C5A572;
+  --color-brand-dark: #2E1065;
+  /* Keeping the deep violet for "brand-dark" as it was "Deep Violet" before, and user asked for "Royal Purple" as Primary. I'll map Primary to the new purple. */
+  --color-brand-royal: #9351c2;
+  /* Explicitly named for clarity */
+  --color-brand-gold: #C5A572;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  word-break: keep-all;
+  /* Global break-keep as requested */
+  line-height: 1.7;
+  /* Global relaxed line-height */
+}
+
+/* Utility for break-keep if needed explicitly, though body has it */
+.break-keep {
+  word-break: keep-all;
+}
