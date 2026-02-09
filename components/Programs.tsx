@@ -243,7 +243,6 @@ export default function Programs() {
     const contentRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
-        // GSAP Animation Context
         const ctx = gsap.context(() => {
             gsap.from(contentRef.current!.children, {
                 scrollTrigger: {
@@ -297,4 +296,3 @@ export default function Programs() {
         </section>
     );
 }
-// Force deploy fix
