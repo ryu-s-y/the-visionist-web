@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
 
                     <p className="text-sm">
-                        © {new Date().getFullYear()} The Visionist. All rights reserved.
+                        © {new Date().getFullYear()} The Visionist. All rights reserved. (Updated)
                     </p>
                 </div>
             </div>
