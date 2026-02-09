@@ -24,7 +24,9 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <p className="text-sm text-gray-400">Email</p>
-                                    <p className="font-medium text-lg">contact@thevisionist.com</p>
+                                    <a href="mailto:boravision@naver.com" className="font-medium text-lg text-[#C5A059] hover:text-white transition-colors">
+                                        boravision@naver.com
+                                    </a>
                                 </div>
                             </div>
                         </div>

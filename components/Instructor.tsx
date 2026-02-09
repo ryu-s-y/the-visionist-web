@@ -7,11 +7,13 @@ export default function Instructor() {
         <section id="instructor" className="py-24 bg-white">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid lg:grid-cols-2 gap-16 items-center">
-                    <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl border border-gray-100">
-                        <div className="absolute inset-0 bg-brand-royal/5"></div>
-                        <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-brand-royal to-brand-dark text-white">
-                            <span className="text-2xl font-bold opacity-20">Instructor Profile Image</span>
-                        </div>
+                    <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl border border-gray-100 bg-white">
+                        <Image
+                            src="/instructor_profile_white.png"
+                            alt="김은경 대표"
+                            fill
+                            className="object-contain"
+                        />
                     </div>
 
                     <div className="space-y-8">
@@ -23,22 +25,35 @@ export default function Instructor() {
                             <span className="text-brand-royal">김은경 대표</span>
                         </h2>
                         <p className="text-base text-gray-600 leading-loose break-keep">
-                            지난 10년간 국내 유수의 대기업과 공공기관에서 리더십과 조직문화 혁신을 주도해왔습니다.
-                            이론에 그치지 않는 실전 중심의 강의로, 조직의 잠재력을 깨우고 성과를 만들어냅니다.
+                            지난 20년간 국내 유수의 대기업과 공공기관에서 리더십과 조직문화 혁신을 주도해왔습니다.
+                            조직의 복잡성 속에서 성과X성장X즐거움의 방법을 실용적으로 연구합니다.
+                            .
                         </p>
 
                         <div className="space-y-5">
                             <div className="flex items-start gap-4">
                                 <div className="w-2 h-2 mt-2.5 rounded-full bg-brand-gold shrink-0"></div>
-                                <p className="text-gray-700 leading-relaxed"><strong>現</strong> 더비저니스트 대표</p>
+                                <p className="text-gray-700 leading-relaxed"><strong>現</strong> The Visionist(더 비저니스트) 대표</p>
                             </div>
                             <div className="flex items-start gap-4">
                                 <div className="w-2 h-2 mt-2.5 rounded-full bg-brand-gold shrink-0"></div>
-                                <p className="text-gray-700 leading-relaxed"><strong>前</strong> OO그룹 인재개발원 전임교수</p>
+                                <p className="text-gray-700 leading-relaxed"><strong>現</strong> 한국생산성본부 전문교수</p>
                             </div>
                             <div className="flex items-start gap-4">
                                 <div className="w-2 h-2 mt-2.5 rounded-full bg-brand-gold shrink-0"></div>
-                                <p className="text-gray-700 leading-relaxed"><strong>저서</strong> &lt;리더의 언어&gt;, &lt;조직을 춤추게 하라&gt;</p>
+                                <p className="text-gray-700 leading-relaxed"><strong>前</strong> 행안부 정부혁신 컨설팅위원 (조직문화분과)</p>
+                            </div>
+                            <div className="flex items-start gap-4">
+                                <div className="w-2 h-2 mt-2.5 rounded-full bg-brand-gold shrink-0"></div>
+                                <p className="text-gray-700 leading-relaxed"><strong>前</strong> 명지전문대학 객원조교수</p>
+                            </div>
+                            <div className="flex items-start gap-4">
+                                <div className="w-2 h-2 mt-2.5 rounded-full bg-brand-gold shrink-0"></div>
+                                <p className="text-gray-700 leading-relaxed"><strong>前</strong> 현대자동차그룹 조직개발 사외 Facilitator</p>
+                            </div>
+                            <div className="flex items-start gap-4">
+                                <div className="w-2 h-2 mt-2.5 rounded-full bg-brand-gold shrink-0"></div>
+                                <p className="text-gray-700 leading-relaxed"><strong>前</strong> SK텔레콤 서비스에이스 교육사업본부 팀장</p>
                             </div>
                         </div>
 

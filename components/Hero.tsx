@@ -56,13 +56,13 @@ export default function Hero() {
 
                     <div className="flex items-center gap-4 pt-4">
                         <Link
-                            href="#programs"
+                            href="/program"
                             className="px-10 py-4 rounded-full bg-brand-royal text-white font-semibold hover:bg-brand-dark transition-all hover:scale-105 shadow-lg shadow-brand-royal/20"
                         >
                             프로그램 보기
                         </Link>
                         <Link
-                            href="#contact"
+                            href="/contact"
                             className="px-10 py-4 rounded-full bg-white text-brand-dark border border-gray-200 font-semibold hover:bg-gray-50 hover:border-brand-gold transition-all"
                         >
                             교육 문의
