@@ -17,7 +17,7 @@ export default function Footer() {
                         </div>
                     </div>
 
-                    <div className="flex gap-8 text-sm">
+                    <div className="flex gap-8 text-sm text-white">
                         <Link href="#" className="hover:text-[#C5A059] transition-colors">개인정보처리방침</Link>
                         <Link href="#" className="hover:text-[#C5A059] transition-colors">이용약관</Link>
                     </div>
